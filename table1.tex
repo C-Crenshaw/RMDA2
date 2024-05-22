@@ -1,0 +1,25 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{1}{cccc}}
+\toprule
+                &\multicolumn{4}{c}{}                            \\
+                &Without Girls&With Girls&Mean Difference         &  P-Value\\
+\midrule
+repub           &     0.47&     0.54&    -0.06\sym{**} & (0.0190)\\
+\addlinespace
+age             &    50.67&    53.84&    -3.17\sym{***}& (0.0000)\\
+\addlinespace
+white           &     0.85&     0.87&    -0.02         & (0.3763)\\
+\addlinespace
+female          &     0.12&     0.12&     0.00         & (0.9657)\\
+\addlinespace
+aauw            &    51.72&    46.93&     4.79\sym{**} & (0.0337)\\
+\addlinespace
+Total children  &     1.10&     2.98&    -1.89\sym{***}& (0.0000)\\
+\addlinespace
+ngirls          &     0.00&     1.73&    -1.73\sym{***}& (0.0000)\\
+\midrule
+Sample\_Size     &         &         &                  &         \\
+\bottomrule
+\end{tabular}
+}
